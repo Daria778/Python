@@ -1,8 +1,4 @@
-# Найдите сумму цифр трехзначного числа.
-# *Пример:*
-
-# 123 -> 6 (1 + 2 + 3)
-# 100 -> 1 (1 + 0 + 0) |
+# Sum of three-digit number
 
 n = int(input('Enter a three-digit number: ' ))
 s = 0
