@@ -1,17 +1,17 @@
-# #11.Пользователь вводит целое число. 
-# Выведите его строку-описание вида "отрицательное четное число", "нулевое число", 
-# "положительное нечетное число", 
-# например, численным описанием числа 190 является строка "положительное четное число".
+a = int(input('Enter the number: '))
+l = int(input('Enter the low for number: ' ))
+s = 0
+n = 2
+f = 0
 
-n = int(input('Enter a number ' ))
-if(n > 0 and n % 2 == 0) :
-    print('положительное и even')
-elif(n < 0 and n % 2 == 0) :
-    print('отрицательное и even')
-elif(n > 0 and n % 2 != 0) :
-    print('полож и odd')
-elif(n < 0 and n % 2 != 0) :
-    print('отриц и odd')
-elif(n == 0) :
-    print('нуль')
-    
+if a > 1 and l >= a:
+    while s < l:
+         s += (n - 1) + (n - 2)
+         f += 1
+
+         if s == a :
+              print(s, f + 1) # count from 0
+              break
+         
+else :
+     print('Error')
