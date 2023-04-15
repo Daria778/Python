@@ -12,7 +12,7 @@ for i in range(0, n, 1) :
     else :
      if p > m :
        m = p
-       p = 0
+    p = 0
 if p > m :
   m = p
    
