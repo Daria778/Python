@@ -5,7 +5,7 @@ n = 2
 f = 0
 
 if a > 1 and l >= a:
-    while s < l:
+    while True:
          s += (n - 1) + (n - 2)
          f += 1
 
