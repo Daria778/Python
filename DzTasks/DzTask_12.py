@@ -5,4 +5,4 @@ y = 1
 
 x = 1 - s + p                  #x^(2) - sx + p = 0
 y = s - x
-print(x, y)
+print(x, y) 
