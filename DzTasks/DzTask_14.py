@@ -4,4 +4,4 @@ print(s)
 while s < n :
     s = s * 2
     if s < n :
-         print(s)
+         print(s)    
