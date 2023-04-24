@@ -5,15 +5,15 @@
 
 n = int(input('Enter the length of the first set: '))
 a = set()
-m = int(input('Enter the length og the second set: '))
+m = int(input('Enter the length of the second set: '))
 b = set()
 
-print('Enter the values for the first set:')
+print('Enter the values of the first set:')
 for i in range(n) :
     z = int(input())
     a.add(z)
 print(a)
-print('Enter the values for the second set:')
+print('Enter the values of the second set:')
 for i in range(m) :
     z = int(input())
     b.add(z)
