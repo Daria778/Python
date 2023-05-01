@@ -10,17 +10,11 @@ b = int(input('Enter the lower restriction: '))
 c = int(input('Enter the upper restriction: '))
 
 d = list()
-g = list()
+
 for i in range(len(a)):
     if a[i] >= b and a[i] <= c:
         d.append(i)
     else:
         pass
-
-for i in range(len(a)):
-    if a[i] >= b and a[i] <= c:
-        g.append(a[i])
-    else:
-        pass
 print(d)
-print(g)
+
