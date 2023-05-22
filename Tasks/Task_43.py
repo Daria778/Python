@@ -6,6 +6,10 @@ for i in range(n) :
 print(a)
 
 s = 0
+for i in range(len(a)):
+    for j in a[i + 1 :]:
+        if a[i] == j:
+            s += 1
 
 
 print(s)
