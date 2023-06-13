@@ -50,7 +50,7 @@ class Rectangle:
         return ((b.x - a.x)* 2) + ((a.y - b.y)*2)
 
     def has_point(self, point):
-        if point.x < max(a.x, b.x) and point.y < max(a.y,b.y) and point.x > min(a.x, b.x) and point.y > min(a.y, b.y):
+        if point.x < max(a.x, b.x) and point.y < max(a.y,b.y) and point.x > min(a.x, b.x) and point.y > min(a.y,b.y):
             return True
         else:
             return False

@@ -41,16 +41,15 @@ class Dragon:
          return string * self.fire_danger
           
     def __eq__(self, other):
-         return self.height == other.height and self.fire_danger == other.fire_danger and self.color == other.color              
-    def __lt__(self, other):
-         return self.height < other.height and self.fire_danger < other.fire_danger and self.color < other.color
-    def __gt__(self, other):
-         return self.height > other.height and self.fire_danger > other.fire_danger and self.color > other.color
+       return self.height == other.height and self.fire_danger == other.fire_danger and self.color == other.color
+         
+
+         
 dr = Dragon(69, 11, "brown")
 dr1 = Dragon(5, 16, "black")
 dr2 = dr + dr1
-#print(dr.change_color("black"))
+print(dr.change_color("black"))
 print(dr - 2)
 print(dr, dr1, dr2, sep="\n")
 print(dr("Welcome")) 
-print(dr > dr1, dr != dr1, dr == dr1)
+print(dr == dr1, dr != dr1, dr == dr1)
